@@ -1,0 +1,10 @@
+apiVersion: apps.github.com/v1alpha1
+kind: ImageUpdater
+metadata:
+  labels:
+    app.kubernetes.io/name: image-update-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: imageupdater-sample
+spec:
+  # TODO(user): Add fields here
+  foo: "Hello world from my operator! :p"
